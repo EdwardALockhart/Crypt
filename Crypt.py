@@ -1,14 +1,12 @@
 """
-Crypt_v17
-
 Created By:
-    Edward Lockhart
+    Edward Alan Lockhart
     September 2020
 
 Description:
     Encrypts and decrypts messages using a character-value dictionary controlled
     by a user-defined random state and a securely-random decryption key unique
-    to each encrypted message.
+    to each encrypted message
 
 Multi-Key One-Time Pad Cipher:
     Key1: Random state dictating the character-value mapping
@@ -17,10 +15,10 @@ Multi-Key One-Time Pad Cipher:
   
 Strengths:
     The resulting ciphertext will be impossible to decrypt as long as:
-        The key is truly random (achieved in code).
-        The key is at least as long as the plaintext (achieved in code).
-        The key is never reused in whole or in part (achieved in code).
-        The key and random state are kept completely secret.
+        The key is truly random (achieved in code)
+        The key is at least as long as the plaintext (achieved in code)
+        The key is never reused in whole or in part (achieved in code)
+        The key and random state are kept completely secret
 
 Usage:
     Encryption:
