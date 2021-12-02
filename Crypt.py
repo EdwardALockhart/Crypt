@@ -267,7 +267,9 @@ def Crypt():
     # If 1 is selected, run the encryption operation
     if selection == 1:
         enc_message, key = encrypt(input_seed)
-        print("\nThe encrypted message is:\n" + enc_message, "\n\nThe unique decryption key is:\n" + key)
+        print("\nThe encrypted message is:\n" + enc_message)
+        print("The unique decryption key is:\n" + key)
+        print("The random state is:\n" + input_seed)
     # If 2 is selected, run the decryption and verification operation
     elif selection == 2:
         dec_message = decrypt(input_seed)
